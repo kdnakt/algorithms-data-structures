@@ -15,7 +15,7 @@ int main() {
     string S, T;
     cin >> S >> T;
 
-    vector<vector<int> > dp(S.size() + 1, vector<int>(T.size() + 1, INF));
+    vector<vector<int>> dp(S.size() + 1, vector<int>(T.size() + 1, INF));
 
     dp[0][0] = 0;
 
