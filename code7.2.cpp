@@ -10,7 +10,7 @@ bool cmp(const Interval &a, const Interval &b) {
 	return a.second < b.second;
 }
 
-int main() {
+int man() {
 	int N;
 	cin >> N;
 	vector<Interval> inter(N);
